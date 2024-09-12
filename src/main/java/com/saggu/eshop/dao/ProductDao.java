@@ -7,6 +7,12 @@ import org.springframework.stereotype.Repository;
 import java.util.ArrayList;
 import java.util.List;
 
+/*
+View Layer ---> Handles the display and user interface.
+Responsible for presenting the data obtained from the Model. It represents the visual representation or user interface of the application.
+The View layer generates the output of the application and communicates it to the client.
+The requested data is fetched from the Model layer by the Controller and passed to the View for rendering and display to the user or client.
+*/
 @Repository
 public class ProductDao
 {

@@ -10,6 +10,12 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RestController;
 import java.util.List;
 
+/*
+Controller Layer ---> Manages user input and interactions, and updates the Model and View.
+Receives user requests from the View layer and handles them, including necessary validations and logic.
+It serves as the intermediary between the Model and View components.
+The Controller processes the user requests and forwards them to the Model layer for data processing.
+*/
 @RestController
 public class ProductController
 {
